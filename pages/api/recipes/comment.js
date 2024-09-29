@@ -12,11 +12,22 @@ export default async function handler(req, res) {
 
     try {
       const recipe = await Recipe.findById(recipeId);
-      recipe.comments.push({ body: comment, createdBy: decoded.id, date: new Date() });
+      if (!recipe) {
+        return res.status(404).json({ error: 'Recipe not found' });
+      }
+
+      recipe.comments.push({ 
+        body: comment, 
+        createdBy: decoded.id, 
+        date: new Date() 
+      });
+
       await recipe.save();
       res.status(200).json({ message: 'Comment added successfully' });
     } catch (error) {
       res.status(400).json({ error: 'Error adding comment' });
     }
+  } else {
+    res.status(405).json({ error: 'Method not allowed' });
   }
 }
