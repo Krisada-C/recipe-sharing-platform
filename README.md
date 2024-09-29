@@ -6,9 +6,10 @@ Link To Repository : https://github.com/Krisada-C/recipe-sharing-platform
 Project Description: 
 A Recipe Sharing Web Application provides a platform where cooking enthusiasts can share their favorite recipes, discover new dishes, and engage with others in a community setting. Key features include user authentication for secure account management, recipe management for adding, editing, and deleting recipes, and a commenting system that allows users to interact by sharing feedback and tips similar to how social media like Twitter, Reddit, Facebook, Instagram, etc allows users to interact between users but with much simpler and less complicated features, an application with search and filter options, users can easily find recipes by keywords, ingredients, or categories. Additionally, user profile management enables personalization and tracking of contributions meaning users can view and manage their posts, comments, and other interactions they had. This feature helps users keep track of their activity and contributions to the community.
 
-<img width="1440" alt="Screen Shot 2567-09-29 at 15 40 07" src="https://github.com/user-attachments/assets/895ce2ba-c7c4-48b6-a4ac-b91f289c1af8">
-
+Website on Vercel:
 <img width="1435" alt="Screen Shot 2567-09-29 at 15 39 56" src="https://github.com/user-attachments/assets/69ad9267-eabe-41d0-8ca4-5d98e0c39e62">
+Quick look of a page on Vercel:
+<img width="1440" alt="Screen Shot 2567-09-29 at 15 40 07" src="https://github.com/user-attachments/assets/895ce2ba-c7c4-48b6-a4ac-b91f289c1af8">
 
 <img width="1440" alt="Screen Shot 2567-09-29 at 14 13 33" src="https://github.com/user-attachments/assets/597ad8d4-dd1b-496b-9e25-07578cd3a664">
 
