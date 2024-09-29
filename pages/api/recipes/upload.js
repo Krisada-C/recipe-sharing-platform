@@ -1,5 +1,4 @@
 import dbConnect from '@/utils/dbConnect';
-import Recipe from '@/models/Recipe';
 import jwt from 'jsonwebtoken';
 
 export default async function handler(req, res) {
