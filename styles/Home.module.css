@@ -1,0 +1,192 @@
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  background-color: #a76b6b;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #783333;
+  padding: 10px 20px;
+  color: rgb(255, 255, 255);
+}
+
+.navLogo {
+  display: flex;
+  align-items: center;
+}
+
+.navLogo h1 {
+  margin-left: 10px;
+  font-size: 24px;
+}
+
+.navLinks {
+  display: flex;
+  list-style: none;
+}
+
+.navLinks li {
+  margin: 0 15px;
+}
+
+.navLinks li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.navLinks li a:hover {
+  text-decoration: underline;
+}
+
+/* Search Input */
+.searchSection {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.searchInput {
+  width: 50%;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.searchInput:focus {
+  outline: none;
+  border-color: #999;
+}
+
+.header {
+  position: relative;
+  height: 500px;
+  text-align: center;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header h1 {
+  position: absolute;
+  z-index: 1;
+  font-size: 48px;
+}
+
+.recipeGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Adjusted for better spacing */
+  justify-content: space-around;
+  padding: 20px; /* Add padding around the grid */
+}
+
+.recipeCard {
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  transition: transform 0.2s; /* Animation effect */
+  background-color: #fff; /* Background for recipe cards */
+}
+
+.recipeCard:hover {
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+/* Categories Section */
+.categories {
+  text-align: center;
+}
+
+.categoryIcons {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px 0;
+}
+
+.category {
+  text-align: center;
+}
+
+.category img {
+  border-radius: 50%;
+}
+
+.footer {
+  padding: 20px;
+  background-color: #783333;
+  text-align: center;
+}
+
+.footer img {
+  border-radius: 50%;
+}
+
+.authButton {
+  background-color: #ffffff; 
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 50px; /* space from other links */
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.authButton:hover {
+  background-color: #7c7c7c;
+}
+
+/* Uploaded Recipes Styles */
+.header h1 {
+  margin-bottom: 20px; /* Add spacing below the header */
+}
+
+.popularRecipes {
+  padding: 20px; /* Additional padding for the section */
+}
+
+.popularRecipes h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px; /* Space between heading and recipe grid */
+}
+
+/* Additional styles for the signup/login form */
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.input {
+  width: 300px;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #999;
+}
+
+.toggle {
+  color: #0070f3; /* Color for the toggle text */
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.toggle:hover {
+  text-decoration: none;
+}

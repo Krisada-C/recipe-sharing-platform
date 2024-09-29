@@ -1,0 +1,22 @@
+[
+    {
+      "name": "Almond Pastry Cookies",
+      "image": "/almondpastrycookie.jpeg",
+      "ingredients": ["Almonds", "Pastry dough", "Sugar", "Butter"],
+      "instructions": "1. Preheat the oven to 350°F. 2. Roll out the pastry dough...",
+      "category": "Dessert",
+      "cookingTime": "45 mins",
+      "servings": 6
+    },
+    {
+      "name": "Instant Pot Recipes",
+      "image": "/instantpotimage.jpeg",
+      "ingredients": ["Chicken", "Rice", "Spices"],
+      "instructions": "1. Add chicken and rice to the Instant Pot...",
+      "category": "Main Dish",
+      "cookingTime": "25 mins",
+      "servings": 4
+    }
+   
+  ]
+  

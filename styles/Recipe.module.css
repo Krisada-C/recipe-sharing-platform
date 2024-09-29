@@ -1,0 +1,79 @@
+/* styles/Recipe.module.css */
+.container {
+    padding: 20px;
+}
+
+.recipeContainer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.recipeImage {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.recipeGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.recipeCard {
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 10px; /* Match the border radius of images */
+}
+
+.recipeNameOverlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    color: white;
+    padding: 10px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.recipeCard:hover .recipeNameOverlay {
+    opacity: 1; /* Show overlay on hover */
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: flex-end; /* Aligns buttons to the right */
+    gap: 10px; /* Space between buttons */
+}
+
+.backButton, .exitButton {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.backButton {
+    background-color: #6c757d; /* Gray color */
+    color: white;
+}
+
+.exitButton {
+    background-color: #dc3545; /* Red color */
+    color: white;
+}
+
+.backButton:hover {
+    background-color: #5a6268; /* Darker gray on hover */
+}
+
+.exitButton:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
