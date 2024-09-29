@@ -16,11 +16,11 @@ export default function UploadedRecipes() {
   useEffect(() => {
     // You can replace this with an API call to fetch real recipes
     setUploadedRecipes([
-      { name: "Spaghetti Carbonara", image: "/carbonara.jpeg" },
-      { name: "Chicken Tikka Masala", image: "/chickentikka.jpeg" },
-      { name: "Beef Stroganoff", image: "/beefstroganoff.jpeg" },
-      { name: "Vegetable Stir Fry", image: "/stirfry.jpeg" },
-      { name: "Apple Pie", image: "/applepie.jpeg" },
+      { name: "Spaghetti Carbonara", image: "/carbonaraimage.jpeg" },
+      { name: "Chicken Tikka Masala", image: "/chickentikkaimage.jpeg" },
+      { name: "Beef Stroganoff", image: "/beefstroganoffimage.jpeg" },
+      { name: "Vegetable Stir Fry", image: "/stirfryimage.jpeg" },
+      { name: "Apple Pie", image: "/applepieimage.jpeg" },
     ]);
   }, []);
 

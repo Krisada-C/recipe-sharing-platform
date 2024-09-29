@@ -19,24 +19,24 @@ const categoryRecipes = {
     { name: 'Chicken Noodle Soup', image: '/chickennoodleimage.jpeg', id: 6 },
   ],
   salad: [
-    { name: 'Caesar Salad', image: '/caesarsalad.jpeg', id: 7 },
-    { name: 'Greek Salad', image: '/greeksalad.jpeg', id: 8 },
+    { name: 'Caesar Salad', image: '/caesarsaladimage.jpeg', id: 7 },
+    { name: 'Greek Salad', image: '/greeksaladimage.jpeg', id: 8 },
   ],
   vegan: [
-    { name: 'Vegan Burger', image: '/veganburger.jpeg', id: 9 },
-    { name: 'Vegan Tacos', image: '/vegantacos.jpeg', id: 10 },
+    { name: 'Vegan Burger', image: '/veganburgerimage.jpeg', id: 9 },
+    { name: 'Vegan Tacos', image: '/vegantacosimage.jpeg', id: 10 },
   ],
   desserts: [
-    { name: 'Chocolate Cake', image: '/chocolatecake.jpeg', id: 11 },
-    { name: 'Apple Pie', image: '/applepie.jpeg', id: 12 },
+    { name: 'Chocolate Cake', image: '/chocolatecakeimage.jpeg', id: 11 },
+    { name: 'Apple Pie', image: '/applepieimage.jpeg', id: 12 },
   ],
   pasta: [
-    { name: 'Spaghetti Carbonara', image: '/carbonara.jpeg', id: 13 },
-    { name: 'Pesto Pasta', image: '/pestopasta.jpeg', id: 14 },
+    { name: 'Spaghetti Carbonara', image: '/carbonaraimage.jpeg', id: 13 },
+    { name: 'Pesto Pasta', image: '/pestopastaimage.jpeg', id: 14 },
   ],
   entrees: [
-    { name: 'Grilled Salmon', image: '/grilledsalmon.jpeg', id: 15 },
-    { name: 'Steak', image: '/steak.jpeg', id: 16 },
+    { name: 'Grilled Salmon', image: '/grilledsalmonimage.jpeg', id: 15 },
+    { name: 'Steak', image: '/steakimage.jpeg', id: 16 },
   ],
 };
 

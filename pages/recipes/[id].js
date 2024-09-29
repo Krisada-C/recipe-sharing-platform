@@ -49,70 +49,70 @@ const recipeData = [
   {
     id: 7,
     name: "Caesar Salad",
-    image: "/caesarsalad.jpeg",
+    image: "/caesarsaladimage.jpeg",
     ingredients: ["Romaine lettuce", "Caesar dressing", "Parmesan cheese", "Croutons"],
     instructions: "Toss lettuce with dressing, top with cheese and croutons."
   },
   {
     id: 8,
     name: "Greek Salad",
-    image: "/greeksalad.jpeg",
+    image: "/greeksaladimage.jpeg",
     ingredients: ["Cucumbers", "Tomatoes", "Feta cheese", "Olives", "Onions"],
     instructions: "Mix all ingredients and drizzle with olive oil and lemon juice."
   },
   {
     id: 9,
     name: "Vegan Burger",
-    image: "/veganburger.jpeg",
+    image: "/veganburgerimage.jpeg",
     ingredients: ["Vegan patties", "Lettuce", "Tomato", "Vegan mayo", "Burger buns"],
     instructions: "Grill patties and assemble burger with toppings."
   },
   {
     id: 10,
     name: "Vegan Tacos",
-    image: "/vegantacos.jpeg",
+    image: "/vegantacosimage.jpeg",
     ingredients: ["Taco shells", "Black beans", "Avocado", "Salsa", "Cilantro"],
     instructions: "Fill taco shells with ingredients and serve with salsa."
   },
   {
     id: 11,
     name: "Chocolate Cake",
-    image: "/chocolatecake.jpeg",
+    image: "/chocolatecakeimage.jpeg",
     ingredients: ["Flour", "Cocoa powder", "Sugar", "Eggs", "Butter"],
     instructions: "Mix all ingredients and bake at 350°F for 30 minutes."
   },
   {
     id: 12,
     name: "Apple Pie",
-    image: "/applepie.jpeg",
+    image: "/applepieimage.jpeg",
     ingredients: ["Apples", "Cinnamon", "Sugar", "Pie crust", "Butter"],
     instructions: "Fill pie crust with apples and bake at 375°F for 45 minutes."
   },
   {
     id: 13,
     name: "Spaghetti Carbonara",
-    image: "/carbonara.jpeg",
+    image: "/carbonaraimage.jpeg",
     ingredients: ["Spaghetti", "Eggs", "Parmesan cheese", "Pancetta", "Pepper"],
     instructions: "Cook spaghetti and mix with pancetta, eggs, and cheese."
   },
   {
     id: 14,
     name: "Pesto Pasta",
-    image: "/pestopasta.jpeg",
+    image: "/pestopastaimage.jpeg",
     ingredients: ["Pasta", "Basil", "Garlic", "Olive oil", "Pine nuts"],
     instructions: "Blend pesto ingredients and toss with cooked pasta."
   },
   {
     id: 15,
     name: "Grilled Salmon",
-    image: "/grilledsalmon.jpeg",
+    image: "/grilledsalmonimage.jpeg",
     ingredients: ["Salmon fillets", "Lemon", "Olive oil", "Salt", "Pepper"],
     instructions: "Grill salmon with olive oil, salt, and pepper. Squeeze lemon juice before serving."
   },
   {
     id: 16,
     name: "Steak",
-    image: "/steak.jpeg",
+    image: "/steakimage.jpeg",
     ingredients: ["Steak", "Salt", "Pepper", "Garlic butter"],
     instructions: "Season steak and cook to preferred doneness. Serve with garlic butter."
   },
