@@ -1,5 +1,5 @@
 import dbConnect from '@/utils/dbConnect';
-import Comment from '@/models/Comment';
+
 
 export default async function handler(req, res) {
   await dbConnect();
